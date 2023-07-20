@@ -6,10 +6,11 @@
  * Return: 1 if char is uppercase, otherwise 0.
 */
 
-int _isupper(int c){
-if (c >= 'A' && c <= 'Z')
+int _isupper(int c)
 {
-return (1);
-}
-return (0);
+	if (c >= 65 && c <= 90)
+	{
+	return (1);
+	}
+	return (0);
 }
